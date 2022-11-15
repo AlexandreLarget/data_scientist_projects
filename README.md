@@ -21,83 +21,84 @@ Each folder contains:
 
 ## 1. Analyse de donnees de systemes educatifs / Educational system data analysis
 
-#### Mission:
-Analyse exploratoire dans le cadre d'une expansion à l'international d'une start-up proposant des cours en ligne.
-#### Source des données:
+**Mission:**<br/>
+Analyse exploratoire dans le cadre d'une expansion à l'international d'une start-up proposant des cours en ligne.<br/>
+**Source des données:**<br/>
 Banque mondiale
-https://datacatalog.worldbank.org/dataset/education-statistics
-#### Compétence évaluées:
+https://datacatalog.worldbank.org/dataset/education-statistics<br/>
+**Compétence évaluées:**
 - Mettre en place un environnement python.
 - Effectuer des représentations graphiques avec une librairie python.
+<br/>
 
-#### Assignment:
-Exploratory analysis as part of an international expansion of a start-up offering online courses.
-#### Data source:
+**Assignment:**<br/>
+Exploratory analysis as part of an international expansion of a start-up offering online courses.<br/>
+**Data source:**<br/>
 World bank
-https://datacatalog.worldbank.org/dataset/education-statistics
-#### Skills assessed:
+https://datacatalog.worldbank.org/dataset/education-statistics<br/>
+**Skills assessed:**
 - Set up a Python environment.
 - Make graphical representations with a python library.
 
 
 ## 2. Application de sante publique / Public health apps
 
-#### Mission:
+**Mission:**
 Proposer une idée d'application pour l'agence de santé publique en rapport avec l'alimentation.
-#### Source des données:
+**Source des données:**
 Open Food Facts
 https://world.openfoodfacts.org/
-#### Compétence évaluées:
+**Compétence évaluées:**
 - Analyses statistiques univariées / multivariée.
 - Opérations de nettoyage pertinentes.
 
-#### Assignment:
+**Assignment:**
 Propose an application idea for the public health agency related to food.
-#### Data source:
+**Data source:**
 Open Food Facts
 https://world.openfoodfacts.org/
-#### Skills assessed:
+**Skills assessed:**
 - Univariate / multivariate statistical analyses.
 - Relevant cleaning operations.
 
 
 ## 3. Anticipation des besoins en consommation electrique / Anticipation of electricity consumption needs
  
-#### Mission:
+**Mission:**
 Tenter de prédire les émissions en CO2 et la consommation totale d'énergie des bâtiments publics de la ville de Seattle en 2050.
-#### Source de données:
+**Source de données:**
 Ville de Seattle
 https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
-#### Compétences évaluées:
+**Compétences évaluées:**
 - Mise en place d'un modèle d'apprentissage supervisé.
 - Recherche d'hyperparamètres pour algorithme supervisé.
 - Évaluation du modèle supervisé.
 
-#### Assignment:
-Attempt to predict the CO2 emissions and total energy consumption of public buildings in the city of Seattle in 2050.
-#### Data source:
+**Assignment:**
+Attempt to predict the CO2 emissions and total energy consumption of public buildings in the city of Seattle in 2050.\n
+**Data source:**
 City of Seattle
 https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
-#### Skills assessed:
+**Skills assessed:**
 - Implementation of a supervised learning model.
 - Search for hyperparameters for supervised algorithm.
 - Supervised model evaluation.
 
 ## 4. Segmentation clientèle / Customer segmentation - unsupervised learning
 
-#### Mission:
+**Mission:**
 Segmentation clientèle pour l'entreprise Olist (e-commerce, Brésil) à destination du service marketing.
-#### Source de données:
+**Source de données:**
 Public dataset by Olist
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-#### Compétences évaluées:
+**Compétences évaluées:**
 - Mise en place d'un modèle d'apprentissage non-supervisé.
 - Recherche d'hyperparamètres pour algorithme non-supervisé.
 - Évauation d'un modèle non-supervisé.
 
-#### Assignment:
+**Assignment:**
 Customer segmentation for the company Olist (e-commerce, Brazil) for the marketing department.
-#### Data source:
+**Data source:**
 Public dataset by Olist
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 #### Skills assessed:
