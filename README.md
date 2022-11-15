@@ -43,20 +43,21 @@ https://datacatalog.worldbank.org/dataset/education-statistics<br/>
 
 ## 2. Application de sante publique / Public health apps
 
-**Mission:**
-Proposer une idée d'application pour l'agence de santé publique en rapport avec l'alimentation.
-**Source des données:**
+**Mission:**<br/>
+Proposer une idée d'application pour l'agence de santé publique en rapport avec l'alimentation.<br/>
+**Source des données:**<br/>
 Open Food Facts
-https://world.openfoodfacts.org/
+https://world.openfoodfacts.org/<br/>
 **Compétence évaluées:**
 - Analyses statistiques univariées / multivariée.
 - Opérations de nettoyage pertinentes.
+<br/>
 
-**Assignment:**
-Propose an application idea for the public health agency related to food.
-**Data source:**
+**Assignment:**<br/>
+Propose an application idea for the public health agency related to food.<br/>
+**Data source:**<br/>
 Open Food Facts
-https://world.openfoodfacts.org/
+https://world.openfoodfacts.org/<br/>
 **Skills assessed:**
 - Univariate / multivariate statistical analyses.
 - Relevant cleaning operations.
@@ -64,21 +65,22 @@ https://world.openfoodfacts.org/
 
 ## 3. Anticipation des besoins en consommation electrique / Anticipation of electricity consumption needs
  
-**Mission:**
-Tenter de prédire les émissions en CO2 et la consommation totale d'énergie des bâtiments publics de la ville de Seattle en 2050.
-**Source de données:**
+**Mission:**<br/>
+Tenter de prédire les émissions en CO2 et la consommation totale d'énergie des bâtiments publics de la ville de Seattle en 2050.<br/>
+**Source de données:**<br/>
 Ville de Seattle
-https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
+https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy<br/>
 **Compétences évaluées:**
 - Mise en place d'un modèle d'apprentissage supervisé.
 - Recherche d'hyperparamètres pour algorithme supervisé.
 - Évaluation du modèle supervisé.
+<br/>
 
-**Assignment:**
-Attempt to predict the CO2 emissions and total energy consumption of public buildings in the city of Seattle in 2050.\n
-**Data source:**
+**Assignment:**<br/>
+Attempt to predict the CO2 emissions and total energy consumption of public buildings in the city of Seattle in 2050.<br/>
+**Data source:**<br/>
 City of Seattle
-https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
+https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy<br/>
 **Skills assessed:**
 - Implementation of a supervised learning model.
 - Search for hyperparameters for supervised algorithm.
@@ -86,22 +88,23 @@ https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
 
 ## 4. Segmentation clientèle / Customer segmentation - unsupervised learning
 
-**Mission:**
-Segmentation clientèle pour l'entreprise Olist (e-commerce, Brésil) à destination du service marketing.
-**Source de données:**
+**Mission:**<br/>
+Segmentation clientèle pour l'entreprise Olist (e-commerce, Brésil) à destination du service marketing.<br/>
+**Source de données:**<br/>
 Public dataset by Olist
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce<br/>
 **Compétences évaluées:**
 - Mise en place d'un modèle d'apprentissage non-supervisé.
 - Recherche d'hyperparamètres pour algorithme non-supervisé.
 - Évauation d'un modèle non-supervisé.
+<br/>
 
-**Assignment:**
-Customer segmentation for the company Olist (e-commerce, Brazil) for the marketing department.
-**Data source:**
+**Assignment:**<br/>
+Customer segmentation for the company Olist (e-commerce, Brazil) for the marketing department.<br/>
+**Data source:**<br/>
 Public dataset by Olist
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-#### Skills assessed:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce<br/>
+**Skills assessed:**
 - Implementation of an unsupervised learning model.
 - Search hyperparameters for unsupervised algorithm.
 - Unsupervised model evaluation.
@@ -109,24 +112,25 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ## 5. Classification automatique de biens de consommation /  Automatic classification of consumer goods - Image and text recognition
 
-#### Mission:
-Création d'un moteur de classification automatique des articles d'un site de e-commerce.
-#### Source des données:
-Openclassrooms
-https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Projet+-+Textimage+DAS+V2/Dataset+projet+pre%CC%81traitement+textes+images.zip
-#### Compétences évaluées:
+**Mission:**<br/>
+Création d'un moteur de classification automatique des articles d'un site de e-commerce.<br/>
+**Source des données:**<br/>
+Openclassrooms<br/>
+https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Projet+-+Textimage+DAS+V2/Dataset+projet+pre%CC%81traitement+textes+images.zip<br/>
+**Compétences évaluées:**
 - Représentation graphique de données à grande dimensions.
 - Mise en oeuvre de techniques de réduction de dimensions.
 - Prétraitement de données textes.
 - Prétraitement de données images.
 - Mise en place d'un model de réseau de neurones.
+<br/>
 
-#### Assignment:
-Creation of an automatic classification engine for articles on an e-commerce site.
-#### Data source::
-Openclassrooms
-https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Project+-+Textimage+DAS+V2/Dataset+project+pre%CC%81processing +texts+images.zip
-#### Skills assessed:
+**Assignment:**<br/>
+Creation of an automatic classification engine for articles on an e-commerce site.<br/>
+**Data source:**<br/>
+Openclassrooms<br/>
+https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Project+-+Textimage+DAS+V2/Dataset+project+pre%CC%81processing +texts+images.zip<br/>
+**Skills assessed:**
 - Graphical representation of large-scale data.
 - Implementation of dimension reduction techniques.
 - Text data preprocessing.
@@ -136,24 +140,25 @@ https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parco
 
 ## 6. Implémentation d'un modèle de scoring / Implementing a scoring model
 
-#### Mission:
+**Mission:**<br/>
 Mise en oeuvre d'un outil de "scoring crédit" pour attribution de crédit à la consommation.
-Implémentation d'un dashboard interactif pour expliquer la décision du modèle.
-#### Source des données:
+Implémentation d'un dashboard interactif pour expliquer la décision du modèle.<br/>
+**Source des données:**<br/>
 Home Credit Default Risk
-https://www.kaggle.com/c/home-credit-default-risk/data
-#### Compétences évaluées:
+https://www.kaggle.com/c/home-credit-default-risk/data<br/>
+**Compétences évaluées:**
 - Déployer un modèle via une API sur le web.
 - Utiliser un logiciel de version de code pour assurer l'intégration du modèle.
 - Réaliser un dashboard interactif.
+<br/>
 
-#### Assignment:
+**Assignment:**<br/>
 Implementation of a "credit scoring" tool for granting consumer credit.
-Implementation of an interactive dashboard to explain the decision of the model.
-#### Data source:
+Implementation of an interactive dashboard to explain the decision of the model.<br/>
+**Data source:**<br/>
 Home Credit Default Risk
-https://www.kaggle.com/c/home-credit-default-risk/data
-#### Skills assessed:
+https://www.kaggle.com/c/home-credit-default-risk/data<br/>
+**Skills assessed:**
 - Deploy a model via an API on the web.
 - Use code release software to ensure model integration.
 - Create an interactive dashboard.
@@ -161,20 +166,21 @@ https://www.kaggle.com/c/home-credit-default-risk/data
 
 ## 7. Déployer un modèle dans le cloud / Deploy a model in the cloud
 
-#### Mission:
-Faire le prétraitement de données et la réduction de dimension dans un environnement Big-Data en utilisant Pyspark et AWS.
-#### Source de données:
+**Mission:**<br/>
+Faire le prétraitement de données et la réduction de dimension dans un environnement Big-Data en utilisant Pyspark et AWS.<br/>
+**Source de données:**<br/>
 Fruits 360
-https://www.kaggle.com/datasets/moltean/fruits
-#### Compétences évaluées:
+https://www.kaggle.com/datasets/moltean/fruits<br/>
+**Compétences évaluées:**
 - Manipuler des données dans un environnement Big Data.
 - Paralléliser des opérations de calcul avec Pyspark.
+<br/>
 
-#### Assignment:
-Perform data pre-processing and dimension reduction in a Big-Data environment using Pyspark and AWS.
-#### Data source:
+**Assignment:**<br/>
+Perform data pre-processing and dimension reduction in a Big-Data environment using Pyspark and AWS.<br/>
+**Data source:**<br/>
 Fruit 360
-https://www.kaggle.com/datasets/moltean/fruit
-#### Skills assessed:
+https://www.kaggle.com/datasets/moltean/fruit<br/>
+**Skills assessed:**
 - Manipulate data in a Big Data environment.
 - Parallelize calculation operations with Pyspark.
