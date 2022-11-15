@@ -27,8 +27,8 @@ Analyse exploratoire dans le cadre d'une expansion à l'international d'une star
 Banque mondiale
 https://datacatalog.worldbank.org/dataset/education-statistics
 #### Compétence évaluées:
-Mettre en place un environnement python.
-Effectuer des représentations graphiques avec une librairie python.
+- Mettre en place un environnement python.
+- Effectuer des représentations graphiques avec une librairie python.
 
 #### Assignment:
 Exploratory analysis as part of an international expansion of a start-up offering online courses.
@@ -36,8 +36,8 @@ Exploratory analysis as part of an international expansion of a start-up offerin
 World bank
 https://datacatalog.worldbank.org/dataset/education-statistics
 #### Skills assessed:
-Set up a Python environment.
-Make graphical representations with a python library.
+- Set up a Python environment.
+- Make graphical representations with a python library.
 
 
 ## 2. Application de sante publique / Public health apps
@@ -48,8 +48,8 @@ Proposer une idée d'application pour l'agence de santé publique en rapport ave
 Open Food Facts
 https://world.openfoodfacts.org/
 #### Compétence évaluées:
-Analyses statistiques univariées / multivariée.
-Opérations de nettoyage pertinentes.
+- Analyses statistiques univariées / multivariée.
+- Opérations de nettoyage pertinentes.
 
 #### Assignment:
 Propose an application idea for the public health agency related to food.
@@ -57,8 +57,8 @@ Propose an application idea for the public health agency related to food.
 Open Food Facts
 https://world.openfoodfacts.org/
 #### Skills assessed:
-Univariate / multivariate statistical analyses.
-Relevant cleaning operations.
+- Univariate / multivariate statistical analyses.
+- Relevant cleaning operations.
 
 
 ## 3. Anticipation des besoins en consommation electrique / Anticipation of electricity consumption needs
@@ -69,9 +69,9 @@ Tenter de prédire les émissions en CO2 et la consommation totale d'énergie de
 Ville de Seattle
 https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
 #### Compétences évaluées:
-Mise en place d'un modèle d'apprentissage supervisé.
-Recherche d'hyperparamètres pour algorithme supervisé.
-Évaluation du modèle supervisé.
+- Mise en place d'un modèle d'apprentissage supervisé.
+- Recherche d'hyperparamètres pour algorithme supervisé.
+- Évaluation du modèle supervisé.
 
 #### Assignment:
 Attempt to predict the CO2 emissions and total energy consumption of public buildings in the city of Seattle in 2050.
@@ -79,9 +79,9 @@ Attempt to predict the CO2 emissions and total energy consumption of public buil
 City of Seattle
 https://data.seattle.gov/dataset/2016-Building-Energy-Benchmarking/2bpz-gwpy
 #### Skills assessed:
-Implementation of a supervised learning model.
-Search for hyperparameters for supervised algorithm.
-Supervised model evaluation.
+- Implementation of a supervised learning model.
+- Search for hyperparameters for supervised algorithm.
+- Supervised model evaluation.
 
 ## 4. Segmentation clientèle / Customer segmentation - unsupervised learning
 
@@ -91,9 +91,9 @@ Segmentation clientèle pour l'entreprise Olist (e-commerce, Brésil) à destina
 Public dataset by Olist
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 #### Compétences évaluées:
-Mise en place d'un modèle d'apprentissage non-supervisé.
-Recherche d'hyperparamètres pour algorithme non-supervisé.
-Évauation d'un modèle non-supervisé.
+- Mise en place d'un modèle d'apprentissage non-supervisé.
+- Recherche d'hyperparamètres pour algorithme non-supervisé.
+- Évauation d'un modèle non-supervisé.
 
 #### Assignment:
 Customer segmentation for the company Olist (e-commerce, Brazil) for the marketing department.
@@ -101,9 +101,9 @@ Customer segmentation for the company Olist (e-commerce, Brazil) for the marketi
 Public dataset by Olist
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 #### Skills assessed:
-Implementation of an unsupervised learning model.
-Search hyperparameters for unsupervised algorithm.
-Unsupervised model evaluation.
+- Implementation of an unsupervised learning model.
+- Search hyperparameters for unsupervised algorithm.
+- Unsupervised model evaluation.
 
 
 ## 5. Classification automatique de biens de consommation /  Automatic classification of consumer goods - Image and text recognition
@@ -114,11 +114,11 @@ Création d'un moteur de classification automatique des articles d'un site de e-
 Openclassrooms
 https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Projet+-+Textimage+DAS+V2/Dataset+projet+pre%CC%81traitement+textes+images.zip
 #### Compétences évaluées:
-Représentation graphique de données à grande dimensions.
-Mise en oeuvre de techniques de réduction de dimensions.
-Prétraitement de données textes.
-Prétraitement de données images.
-Mise en place d'un model de réseau de neurones.
+- Représentation graphique de données à grande dimensions.
+- Mise en oeuvre de techniques de réduction de dimensions.
+- Prétraitement de données textes.
+- Prétraitement de données images.
+- Mise en place d'un model de réseau de neurones.
 
 #### Assignment:
 Creation of an automatic classification engine for articles on an e-commerce site.
@@ -126,11 +126,11 @@ Creation of an automatic classification engine for articles on an e-commerce sit
 Openclassrooms
 https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Project+-+Textimage+DAS+V2/Dataset+project+pre%CC%81processing +texts+images.zip
 #### Skills assessed:
-Graphical representation of large-scale data.
-Implementation of dimension reduction techniques.
-Text data preprocessing.
-Image data preprocessing.
-Implementation of a neural network model.
+- Graphical representation of large-scale data.
+- Implementation of dimension reduction techniques.
+- Text data preprocessing.
+- Image data preprocessing.
+- Implementation of a neural network model.
 
 
 ## 6. Implémentation d'un modèle de scoring / Implementing a scoring model
@@ -142,9 +142,9 @@ Implémentation d'un dashboard interactif pour expliquer la décision du modèle
 Home Credit Default Risk
 https://www.kaggle.com/c/home-credit-default-risk/data
 #### Compétences évaluées:
-Déployer un modèle via une API sur le web.
-Utiliser un logiciel de version de code pour assurer l'intégration du modèle.
-Réaliser un dashboard interactif.
+- Déployer un modèle via une API sur le web.
+- Utiliser un logiciel de version de code pour assurer l'intégration du modèle.
+- Réaliser un dashboard interactif.
 
 #### Assignment:
 Implementation of a "credit scoring" tool for granting consumer credit.
@@ -153,9 +153,9 @@ Implementation of an interactive dashboard to explain the decision of the model.
 Home Credit Default Risk
 https://www.kaggle.com/c/home-credit-default-risk/data
 #### Skills assessed:
-Deploy a model via an API on the web.
-Use code release software to ensure model integration.
-Create an interactive dashboard.
+- Deploy a model via an API on the web.
+- Use code release software to ensure model integration.
+- Create an interactive dashboard.
 
 
 ## 7. Déployer un modèle dans le cloud / Deploy a model in the cloud
@@ -166,8 +166,8 @@ Faire le prétraitement de données et la réduction de dimension dans un enviro
 Fruits 360
 https://www.kaggle.com/datasets/moltean/fruits
 #### Compétences évaluées:
-Manipuler des données dans un environnement Big Data.
-Paralléliser des opérations de calcul avec Pyspark.
+- Manipuler des données dans un environnement Big Data.
+- Paralléliser des opérations de calcul avec Pyspark.
 
 #### Assignment:
 Perform data pre-processing and dimension reduction in a Big-Data environment using Pyspark and AWS.
@@ -175,5 +175,5 @@ Perform data pre-processing and dimension reduction in a Big-Data environment us
 Fruit 360
 https://www.kaggle.com/datasets/moltean/fruit
 #### Skills assessed:
-Manipulate data in a Big Data environment.
-Parallelize calculation operations with Pyspark.
+- Manipulate data in a Big Data environment.
+- Parallelize calculation operations with Pyspark.
