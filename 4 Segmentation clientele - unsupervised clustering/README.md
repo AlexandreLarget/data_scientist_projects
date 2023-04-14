@@ -23,4 +23,6 @@ Outier detection using Isolation Forest.<br/><br/>
 
 <p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/repartition_des_donn%C3%A9es_dans_le_temps.png?raw=true"  width="70%" height="70%" align=center></p>
 
+<p align=center>Total purchase amount distribution without outliers</p>
+
 
