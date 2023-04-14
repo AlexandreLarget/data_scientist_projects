@@ -106,5 +106,13 @@ Numerical results, an iteration `n` in compared with `n-1`
 Use of the ARI (adjust random index).<br/>
 The Rand Index computes a similarity measure between two clusterings by considering all pairs of samples and counting pairs that are assigned in the same or different clusters in the predicted and true clusterings.
 
+<p align=center>
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_stabilite_temp.png?raw=true" width="50%" height="50%">
+</p><br/>
+After 5 month, the ARI of the model collapses and then come back to an high index. It show the robustness of the model through time.<br/>
+A way to improve the model would be to retrain it with the data from 2017 and 2018 together and test it with the data of 2019 when available.
 
+## Group analysis<a class='anchor' id='5'></a>
+
+Quick analysis of the clusters found by the model.
 
