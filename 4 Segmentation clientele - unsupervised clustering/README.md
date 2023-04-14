@@ -26,8 +26,13 @@ RFM segmentation + feature selection:
 <p align=center>Total purchase amount distribution without outliers</p>
 <p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/analyse_univariee_IFR_total_purchase_amount.png?raw=true" width="100%" height="100%"></p><br/>
 
-- **final dataset size: 8 columns, 37218 rows (customers)**
+- **final dataset size: 8 columns, 460,547 rows (customers)**
 <p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/df_if2_head_short.png?raw=true" width="100%" height="100%"></p>
+
+We will split the dataframe in 2: 
+
+- the data from 2017 will be used to elaborate and train a model
+- the data from 2018 will be used to test the reliability and robustness of the model
 
 
 ## Dimension reduction using T-sne<a class='anchor' id='2'></a>
@@ -65,9 +70,12 @@ The homogeneity of the groups and the value of the coefficient 0.3 &lt; x &lt; 0
 
 ## Stability test model and time<a class='anchor' id='4'></a>
 
-#### Model robustness
+To ensure the relevance of the model, we will test both its reliability by initializing the clusters centroids randomly and its robustness over time.
 
-Loop with `method random` for centroids initiation. Iterations 1 to 6<br/><br/>
+#### Model reliability
+
+Loop with `method random` for centroids initiation to see if the model finds the same clusters.<br/><br/>
+Iterations 1 to 6<br/><br/>
 Visual results:
 <div>
 <p align=center>
@@ -81,8 +89,22 @@ Visual results:
 </div>
 <br/>
 
-Numerical results:
+Numerical results, an iteration `n` in compared with `n-1`
+<div>
+<p align=center>
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_heatmap_-1.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_heatmap_0.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_heatmap_1.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_heatmap_2.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_heatmap_3.png?raw=true" width="30%" height="30%">
+</p>
+</div>
+<br/>
 
+#### Model robustness
+
+Use of the ARI (adjust random index).<br/>
+The Rand Index computes a similarity measure between two clusterings by considering all pairs of samples and counting pairs that are assigned in the same or different clusters in the predicted and true clusterings.
 
 
 
