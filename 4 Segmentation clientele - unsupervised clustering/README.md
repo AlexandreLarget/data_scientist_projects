@@ -9,7 +9,7 @@ Olist wants a customer segmentation for its marketing team in order to identy di
 - [Data aggregation cleaning and RFM segmentation](#1)
 - [Dimension reduction using T-sne](#2)
 - [Clustering using K-mean](#3)
-- [Stability test using adjusted random score](#4)
+- [Stability test (model and time)](#4)
 - [group analysis](#5)
 
 ## Data aggregation cleaning and RFM segmentation<a class='anchor' id='1'></a>
@@ -45,7 +45,7 @@ Results are good for k=4, k=6 or k=7.<br/>
 
 <div>
 <p align=center>
-<td><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_4.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_4.png?raw=true" width="30%" height="30%">
 <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_6.png?raw=true" width="30%" height="30%">
 <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_7.png?raw=true" width="30%" height="30%">
 </p>
@@ -56,12 +56,33 @@ Calculate the mean intra-cluster distance (a) and the mean nearest-cluster dista
 
 <div>
 <p align=center>
-<td><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette2.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette2.png?raw=true" width="30%" height="30%">
 <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette6.png?raw=true" width="30%" height="30%">
 <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette7.png?raw=true" width="30%" height="30%">
 </p>
 </div>
 The homogeneity of the groups and the value of the coefficient 0.3 &lt; x &lt; 0.4 confirm the relevance of the clustering.
 
-## Stability test using adjusted random score<a class='anchor' id='4'></a>
+## Stability test model and time<a class='anchor' id='4'></a>
+
+#### Model robustness
+
+Loop with `method random` for centroids initiation. Iterations 1 to 6<br/><br/>
+Visual results:
+<div>
+<p align=center>
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_0.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_1.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_2.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_3.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_4.png?raw=true" width="30%" height="30%">
+  <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_iteration_5.png?raw=true" width="30%" height="30%">
+</p>
+</div>
+<br/>
+
+Numerical results:
+
+
+
 
