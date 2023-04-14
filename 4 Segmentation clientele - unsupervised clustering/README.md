@@ -114,5 +114,36 @@ A way to improve the model would be to retrain it with the data from 2017 and 20
 
 ## Group analysis<a class='anchor' id='5'></a>
 
-Quick analysis of the clusters found by the model.
+Quick analysis of the clusters found by the model (more details in the ppt presentation).
+
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
+
+<div>
+<tr>
+<th>
+
+- One time customer
+
+</th>
+<th>
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/polar0.png?raw=true" width="30%" height="30%">
+</th>
+<th>
+
+- Little amount, pay by cash
+- Mostly from Sao Paulo
+
+</th>
+</tr>
+</div>
 
