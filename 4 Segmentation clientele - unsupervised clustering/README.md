@@ -50,4 +50,13 @@ Results are good for k=4, k=6 or k=7.<br/>
 Validation with Silhouette Coefficient.<br/>
 Calculate the mean intra-cluster distance (a) and the mean nearest-cluster distance (b) for each sample. The Silhouette Coefficient for a sample is `(b - a) / max(a, b)`
 
+<div>
+<p align=center>
+<td><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette2.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette6.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette7.png?raw=true" width="30%" height="30%">
+</p>
+</div>
+The homogeneity of the groups and the value of the coefficient `0.4<x<0.5` confirm the relevance of the clustering.
+
 
