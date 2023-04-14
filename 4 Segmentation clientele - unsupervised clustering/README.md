@@ -18,14 +18,17 @@ Aggregation of the 9 datasets provided into one with client_id as primary key. <
 Outlier detection using Isolation Forest.<br/><br/>
 RFM segmentation + feature selection:
 - dataset final features: last purchase date(recency), total purchase count (frequency), total purchase amount (monetary), delivery time, mean reviews score, item most purchased, customer state (area), payment type
-- dataset size: 8 columns, 37218 rows (customers)
 
 <p align=center>Purchases between oct 2016 and oct 2018</p>
 
-<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/repartition_des_donn%C3%A9es_dans_le_temps.png?raw=true"  width="70%" height="70%"></p><br/>
+<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/repartition_des_donn%C3%A9es_dans_le_temps.png?raw=true"  width="60%" height="60%"></p><br/>
 
 <p align=center>Total purchase amount distribution without outliers</p>
-<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/analyse_univariee_IFR_total_purchase_amount.png?raw=true" width="100%" height="100%"></p>
+<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/analyse_univariee_IFR_total_purchase_amount.png?raw=true" width="100%" height="100%"></p><br/>
+
+- **final dataset size: 8 columns, 37218 rows (customers)**
+<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/df_if2_head_short.png?raw=true" width="100%" height="100%"></p>
+
 
 ## Dimension reduction using T-sne
 T-sne (t-distributed stochastic neighbor embedding) is an unsupervised, non-linear technique for data exploration and visualisation.<br/> 
@@ -57,6 +60,7 @@ Calculate the mean intra-cluster distance (a) and the mean nearest-cluster dista
 <img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_sihouette7.png?raw=true" width="30%" height="30%">
 </p>
 </div>
-The homogeneity of the groups and the value of the coefficient `0.4<x<0.5` confirm the relevance of the clustering.
+The homogeneity of the groups and the value of the coefficient 0.3 &lt; x &lt; 0.4 confirm the relevance of the clustering.
 
+## Stability test using adjusted random score
 
