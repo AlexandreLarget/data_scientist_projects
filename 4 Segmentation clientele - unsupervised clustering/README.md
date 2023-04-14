@@ -30,3 +30,11 @@ RFM segmentation + feature selection:
 ## Dimension reduction using T-sne
 T-sne (t-distributed stochastic neighbor embedding) is an unsupervised, non-linear technique for data exploration and visualisation.<br/> 
 It allows to reduce the dimensions of the data (here from 8 to 2) to be able to visualize it without loosing informations.  
+
+<p align=center>Data visualisation after T-sne reduction</p>
+<p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne.png?raw=true" width="40%" height="40%"></p>
+
+## Clustering using K-mean
+
+K-mean is an unsupervised algorithm that will find clusters with the nearest mean by minimizing cluster variances.<br/>
+Results are good for k=4, k=6 or k=7.
