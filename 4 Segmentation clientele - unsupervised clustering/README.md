@@ -37,4 +37,17 @@ It allows to reduce the dimensions of the data (here from 8 to 2) to be able to 
 ## Clustering using K-mean
 
 K-mean is an unsupervised algorithm that will find clusters with the nearest mean by minimizing cluster variances.<br/>
-Results are good for k=4, k=6 or k=7.
+Results are good for k=4, k=6 or k=7.<br/>
+
+<div>
+<p align=center>
+<td><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_4.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_6.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne_kmean_k_7.png?raw=true" width="30%" height="30%">
+</p>
+</div><br/>
+
+Validation with Silhouette Coefficient.<br/>
+Calculate the mean intra-cluster distance (a) and the mean nearest-cluster distance (b) for each sample. The Silhouette Coefficient for a sample is `(b - a) / max(a, b)`
+
+
