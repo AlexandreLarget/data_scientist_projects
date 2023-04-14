@@ -6,13 +6,13 @@ Olist wants a customer segmentation for its marketing team in order to identy di
 
 ## Method
 
-- Data aggregation cleaning and RFM segmentation
-- Dimension reduction using T-sne
-- Clustering using K-mean
-- Stability test using adjusted random score
-- group analysis
+- [Data aggregation cleaning and RFM segmentation](#1)
+- [Dimension reduction using T-sne](#2)
+- [Clustering using K-mean](#3)
+- [Stability test using adjusted random score](#4)
+- [group analysis](#5)
 
-## Data aggregation cleaning and RFM segmentation
+## Data aggregation cleaning and RFM segmentation<a class='anchor' id='1'></a>
 
 Aggregation of the 9 datasets provided into one with client_id as primary key. <br/><br/>
 Outlier detection using Isolation Forest.<br/><br/>
@@ -30,14 +30,15 @@ RFM segmentation + feature selection:
 <p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/df_if2_head_short.png?raw=true" width="100%" height="100%"></p>
 
 
-## Dimension reduction using T-sne
+## Dimension reduction using T-sne<a class='anchor' id='2'></a>
+
 T-sne (t-distributed stochastic neighbor embedding) is an unsupervised, non-linear technique for data exploration and visualisation.<br/> 
 It allows to reduce the dimensions of the data (here from 8 to 2) to be able to visualize it without loosing informations.  
 
 <p align=center>Data visualisation after T-sne reduction</p>
 <p align=center><img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/tsne.png?raw=true" width="40%" height="40%"></p>
 
-## Clustering using K-mean
+## Clustering using K-mean<a class='anchor' id='3'></a>
 
 K-mean is an unsupervised algorithm that will find clusters with the nearest mean by minimizing cluster variances.<br/>
 Results are good for k=4, k=6 or k=7.<br/>
@@ -62,5 +63,5 @@ Calculate the mean intra-cluster distance (a) and the mean nearest-cluster dista
 </div>
 The homogeneity of the groups and the value of the coefficient 0.3 &lt; x &lt; 0.4 confirm the relevance of the clustering.
 
-## Stability test using adjusted random score
+## Stability test using adjusted random score<a class='anchor' id='4'></a>
 
