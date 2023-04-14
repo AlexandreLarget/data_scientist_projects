@@ -114,24 +114,7 @@ A way to improve the model would be to retrain it with the data from 2017 and 20
 
 ## Group analysis<a class='anchor' id='5'></a>
 
-Quick analysis of the clusters found by the model (more details in the ppt presentation).
-
-#### Group 0: One time customer
-
-- Little amount, pay by cash
-_ Mostly from Sao Paulo
-
-- One time customer
+Analysis of the 6 group identified in the [presentation](https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/3_Presentation.pdf)
 
 
-<img src="https://github.com/AlexandreLarget/data_scientist_projects/blob/master/4%20Segmentation%20clientele%20-%20unsupervised%20clustering/Images/polar0.png?raw=true" width="30%" height="30%">
-</th>
-<th>
-
-- Little amount, pay by cash
-- Mostly from Sao Paulo
-
-</th>
-</tr>
-</div>
 
